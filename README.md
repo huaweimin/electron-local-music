@@ -21,7 +21,7 @@
 ![image](https://github.com/huaweimin/electron-local-music/blob/master/imgs/5.png)
 ***
 ### 点击播放，显示进度条
-![image](https://github.com/huaweimin/electron-local-music/blob/master/imgs/5.png)
+![image](https://github.com/huaweimin/electron-local-music/blob/master/imgs/6.png)
 ***
 ### 点击删除音乐
-![image](https://github.com/huaweimin/electron-local-music/blob/master/imgs/6.png)
+![image](https://github.com/huaweimin/electron-local-music/blob/master/imgs/7.png)
