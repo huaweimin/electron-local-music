@@ -1,0 +1,14 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.music.app
+extends: null
+files:
+  - filter:
+      - build/music/cjb
+mac:
+  icon: icons/icon.icns
+win:
+  target: nsis
+  icon: icons/icon.png
+electronVersion: 8.0.3

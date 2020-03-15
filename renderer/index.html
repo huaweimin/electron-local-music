@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Electron音乐播放器</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" integrity="sha384-v8BU367qNbs/aIZIxuivaU55N5GPF89WBerHoGA4QTcbUjYiLQtKdrfXnqAcXyTv" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="container mt-4">
+        <h1>我的播放器</h1>
+        <button type="button" id="add_music" class="btn btn-primary btn-lg btn-block mt-4">
+            添加歌曲到曲库
+        </button>
+        <div id="tracksList" class="mt-4"></div>
+        <div class="container fixed-bottom bg-white pd-4">
+          <hr />
+          <div class="row my-2" id="play-status">
+          </div>
+          <div class="progress">
+            <div class="progress-bar bg-success" id="player-progress" role="progressbar" style="width: 0%;">
+              0%
+            </div>
+          </div>
+        </div>
+    </div>
+    <script>
+      require('./index.js')
+    </script>
+  </body>
+</html>

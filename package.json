@@ -1,0 +1,45 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --watch main.js --exec \"electron .\"",
+    "pack": "electron-builder"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^8.0.3",
+    "electron-builder": "^22.3.6",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.2",
+    "electron-store": "^5.1.1",
+    "uuid": "^7.0.2"
+  },
+    "build": {
+        "appId": "com.music.app",
+        "extends": null,
+        "files": [
+            "build/music/cjb"
+        ],
+        "mac": {
+            "icon": "icons/icon.icns"
+        },
+        "win": {
+            "target": "nsis",
+            "icon": "icons/icon.png"
+        }
+    }
+}
+
